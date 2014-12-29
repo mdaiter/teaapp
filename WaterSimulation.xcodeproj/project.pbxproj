@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		3C98A04D24C750C498938BC9 /* MainLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C98A22F04729FB2F8DE8584 /* MainLayer.m */; };
 		3C98A7C3952C400CEE989F8E /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C98A321E04F86EBC5C88AD1 /* IntroLayer.m */; };
+		4287E3871A4BF27E002D5D43 /* KermitTrimmed.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4287E3861A4BF27E002D5D43 /* KermitTrimmed.wav */; };
 		428B7B961A4644F50069BAD1 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 428B7B951A4644F50069BAD1 /* CoreMotion.framework */; };
-		42E5B2C81A4AC4EB00A3EE2C /* KermitTrimmed.wav in Resources */ = {isa = PBXBuildFile; fileRef = 42E5B2C71A4AC4EB00A3EE2C /* KermitTrimmed.wav */; };
 		ACE1A684175E79000039BA29 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE1A683175E79000039BA29 /* QuartzCore.framework */; };
 		ACE1A686175E79000039BA29 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE1A685175E79000039BA29 /* OpenGLES.framework */; };
 		ACE1A688175E79000039BA29 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE1A687175E79000039BA29 /* OpenAL.framework */; };
@@ -144,8 +144,8 @@
 		3C98A22F04729FB2F8DE8584 /* MainLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainLayer.m; sourceTree = "<group>"; };
 		3C98A321E04F86EBC5C88AD1 /* IntroLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
 		3C98A7A6021AB3667B177F0A /* MainLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainLayer.h; sourceTree = "<group>"; };
+		4287E3861A4BF27E002D5D43 /* KermitTrimmed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = KermitTrimmed.wav; path = Resources/KermitTrimmed.wav; sourceTree = "<group>"; };
 		428B7B951A4644F50069BAD1 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		42E5B2C71A4AC4EB00A3EE2C /* KermitTrimmed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = KermitTrimmed.wav; path = ../../KermitTrimmed.wav; sourceTree = "<group>"; };
 		ACE1A67F175E79000039BA29 /* WaterSimulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterSimulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE1A683175E79000039BA29 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		ACE1A685175E79000039BA29 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -494,7 +494,7 @@
 		ACE1A696175E79000039BA29 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				42E5B2C71A4AC4EB00A3EE2C /* KermitTrimmed.wav */,
+				4287E3861A4BF27E002D5D43 /* KermitTrimmed.wav */,
 				ACE1A697175E79000039BA29 /* Default.png */,
 				ACE1A699175E79000039BA29 /* Default-Landscape~ipad.png */,
 				ACE1A69B175E79000039BA29 /* fps_images.png */,
@@ -938,7 +938,7 @@
 				ACE1A6A4175E79000039BA29 /* Icon-Small-50.png in Resources */,
 				ACE1A6A6175E79000039BA29 /* Icon-Small.png in Resources */,
 				ACE1A6A8175E79000039BA29 /* Icon-Small@2x.png in Resources */,
-				42E5B2C81A4AC4EB00A3EE2C /* KermitTrimmed.wav in Resources */,
+				4287E3871A4BF27E002D5D43 /* KermitTrimmed.wav in Resources */,
 				ACE1A6AA175E79000039BA29 /* Icon.png in Resources */,
 				ACE1A6AC175E79000039BA29 /* Icon@2x.png in Resources */,
 				ACE1A6AF175E79000039BA29 /* iTunesArtwork in Resources */,
