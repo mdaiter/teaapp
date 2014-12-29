@@ -1,6 +1,6 @@
-ios-2d-water-simulation
+iOS TeaApp Simulation
 =======================
-Dynamic 2D Water Effects.<br />
-The main idea has taken from http://gamedev.tutsplus.com/tutorials/implementation/make-a-splash-with-2d-water-effects/
+Dynamic 2D Tea Effects.<br />
 
-![Alt text](http://s22.postimg.org/z8eml94ox/2013_06_05_0_48_56.png "Screen shot")
+Modified original for looking like tea, added in water effects and splashing through gyroscope rotation. Plays sound at end.
+
